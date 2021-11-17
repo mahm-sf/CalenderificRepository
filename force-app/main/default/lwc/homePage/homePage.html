@@ -1,0 +1,49 @@
+<template>
+    <div class="slds-text-heading_medium slds-m-bottom_medium"><b>{labels.Search_Page_Header}</b></div>
+    <lightning-card title="Input ID to search for citizen detail" icon-name="custom:custom15">
+        <div class="slds-grid slds-gutters slds-m-around_medium" onkeyup={handleKeyUp}>
+            <div class="slds-col slds-size_2-of-3">
+                <lightning-input max-length="13" name="enter-search" type="search" onchange={handleChange}>
+                </lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-3 slds-m-top_medium">
+                <template if:true={isDisabled}>
+                    <lightning-button label="Search" name="search" disabled variant="brand"> </lightning-button>
+                </template>
+                <template if:false={isDisabled}>
+                    <lightning-button label="Search" onclick={handleClick} name="search" variant="brand">
+                    </lightning-button>
+                </template>
+            </div>
+        </div>
+        <template if:true={citizenWrapper}>
+            <div class="slds-m-top_medium slds-m-around_medium slds-m-bottom_x-large">
+                <div class="slds-p-around_medium lgc-bg">
+                    <lightning-tile label={citizenWrapper.Name}>
+                        <ul class="slds-list_horizontal slds-has-dividers_right">
+                            <li class="slds-item">{citizenWrapper.DOB__c}</li>
+                            <li class="slds-item">{citizenWrapper.SA_Citizen__c}</li>
+                            <li class="slds-item">{citizenWrapper.Gender__c}</li>
+                        </ul>
+                    </lightning-tile>
+                </div>
+            </div>
+        </template>
+    </lightning-card>
+    <br>
+    <template if:true={displaytable}>
+        <lightning-card title="List of Holidays" icon-name="custom:custom9">
+            <div class="slds-m-around_medium">
+                <div>
+                    <lightning-datatable key-field="id" data={data} hide-checkbox-column columns={columns}>
+                    </lightning-datatable>
+                </div>
+            </div>
+            <div class="slds-m-around_medium">
+                <p class="slds-m-vertical_medium content">
+                    Page {page} of {totalPage} </p>
+                <c-paginator onprevious={previousHandler} onnext={nextHandler}></c-paginator>
+            </div>
+        </lightning-card>
+    </template>
+</template>

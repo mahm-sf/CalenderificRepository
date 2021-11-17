@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0055f000004XQ8fAAG",
+    "createdByName": "Maham Hassan",
+    "createdDate": "1970-01-01T00:00:00.000Z",
+    "fileName": "labels/CustomLabels.labels",
+    "fullName": "CustomLabels",
+    "id": "",
+    "lastModifiedById": "0055f000004XQ8fAAG",
+    "lastModifiedByName": "Maham Hassan",
+    "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+    "namespacePrefix": "",
+    "type": "CustomLabels"
+  }
+}

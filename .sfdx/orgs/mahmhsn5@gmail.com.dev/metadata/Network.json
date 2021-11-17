@@ -1,0 +1,15 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0055f000004XQ8fAAG",
+    "createdByName": "Maham Hassan",
+    "createdDate": "2021-11-17T18:42:42.000Z",
+    "fileName": "networks/search.network",
+    "fullName": "search",
+    "id": "0DB5f000000fybiGAA",
+    "lastModifiedById": "0055f000004XQ8fAAG",
+    "lastModifiedByName": "Maham Hassan",
+    "lastModifiedDate": "2021-11-17T18:46:17.000Z",
+    "type": "Network"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0055f000004XQ8fAAG",
+    "createdByName": "Maham Hassan",
+    "createdDate": "1970-01-01T00:00:00.000Z",
+    "fileName": "customMetadata/Calendarific_Configuration.API_Key.md",
+    "fullName": "Calendarific_Configuration.API_Key",
+    "id": "m005f0000007AqFAAU",
+    "lastModifiedById": "0055f000004XQ8fAAG",
+    "lastModifiedByName": "Maham Hassan",
+    "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+    "manageableState": "unmanaged",
+    "type": "CustomMetadata"
+  }
+}

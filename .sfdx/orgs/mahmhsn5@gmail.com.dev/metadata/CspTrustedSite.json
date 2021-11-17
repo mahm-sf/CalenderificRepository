@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0055f000004XQ8fAAG",
+    "createdByName": "Maham Hassan",
+    "createdDate": "2021-11-17T18:52:15.000Z",
+    "fileName": "cspTrustedSites/Calenderific.cspTrustedSite",
+    "fullName": "Calenderific",
+    "id": "08y5f000000g2lwAAA",
+    "lastModifiedById": "0055f000004XQ8fAAG",
+    "lastModifiedByName": "Maham Hassan",
+    "lastModifiedDate": "2021-11-17T18:52:15.000Z",
+    "manageableState": "unmanaged",
+    "type": "CspTrustedSite"
+  }
+}

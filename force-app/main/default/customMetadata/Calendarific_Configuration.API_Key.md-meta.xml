@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>API Key</label>
+    <protected>false</protected>
+    <values>
+        <field>Detail__c</field>
+        <value xsi:type="xsd:string">721fe43aaa1b4c0ee20cf0a7d5350c5684f13fb8</value>
+    </values>
+</CustomMetadata>
